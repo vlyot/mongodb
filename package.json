@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:server": "tsnd src/server/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
     "typescript": "^5.6.3"
   },
